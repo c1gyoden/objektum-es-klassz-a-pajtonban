@@ -24,7 +24,7 @@ for betu in parancsok:
     if betu in stat.keys():
         stat[betu] += 1
 
-iranyok = Robot(stat['E'], stat['D'], stat['N'], stat['K'])
+iranyok = Robot(stat['E'], stat['D'], stat['K'], stat['N'])
 print(iranyok)
 
 if int(stat['E']) > int(stat['D']):
