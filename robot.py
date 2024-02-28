@@ -41,7 +41,7 @@ else:
     stat['K'] = int(stat['K']) - int(stat['N'])
     stat['N'] = 0
 
-print("Új parancszó:")
+print("Új parancsszó:")
 for k,v in stat.items():
     for i in range(v):
         print(k, end='')
